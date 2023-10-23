@@ -1,0 +1,181 @@
+/* Thiết lập font chung cho trang web */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Định dạng thanh điều hướng */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.container{
+    padding-top: 60px;
+}
+/* Định dạng danh sách sản phẩm */
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* Định dạng lưới sản phẩm */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-grid .product {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+/* Định dạng phần sản phẩm */
+.product {
+    width: 310px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 34vh;
+}
+
+/* Định dạng phần tử chứa giá gốc và giá khuyến mãi */
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Định dạng giá gốc */
+.original-price {
+    color: #777; /* Màu chữ xám cho giá gốc */
+    text-decoration: line-through; /* Gạch ngang cho giá gốc */
+    margin-left: 15 px; /* Khoảng cách bên trái của giá gốc */
+}
+
+/* Định dạng giá khuyến mãi */
+.discounted-price {
+    color: #ff6600; /* Màu chữ cam cho giá khuyến mãi */
+    font-size: 1.2rem; /* Cỡ chữ lớn hơn cho giá khuyến mãi */
+    margin: 5px 5px;
+}
+
+/* Định dạng nút mua hàng */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float:right;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Định dạng footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    width: 300px;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+ 
+  .sidebar a:hover{
+    background-color: #555;
+    color: white;
+  }
+#menu{
+    position: fixed;
+    z-index: 1;
+    min-width: 100%;
+}
+
+.footer-information{
+    font-size: 14px;
+    display: flex;
+    color: #282828;
+}
+.footer-column-2 li{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+.footer-column-2 li a{
+    color: #282828;
+}
+.footer-column-3 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.space{
+    margin: 0px 20px;
+}
+.wrap-footer-pay-certificate{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+.wrap-footer-pay-certificate .wrap-payment{
+    margin-right: 60px;
+}
+.wrap-footer-pay-certificate .wrap-cerificate{
+    margin-right: 210px;
+}
+.wrap-footer-pay-certificate .wrap-payment img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}

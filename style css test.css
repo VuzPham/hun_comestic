@@ -1,0 +1,47 @@
+/* Thiết lập font chung cho trang web */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+/* Định dạng phần tử chứa giá gốc và giá khuyến mãi */
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Định dạng giá gốc */
+.original-price {
+    color: #777; /* Màu chữ xám cho giá gốc */
+    text-decoration: line-through; /* Gạch ngang cho giá gốc */
+    margin-left: 40px; /* Khoảng cách bên trái của giá gốc */
+}
+
+/* Định dạng giá khuyến mãi */
+.discounted-price {
+    color: #ff6600; /* Màu chữ cam cho giá khuyến mãi */
+    font-size: 1.2rem; /* Cỡ chữ lớn hơn cho giá khuyến mãi */
+}
+
+/* Định dạng nút mua hàng */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;    
+}
+
+button:hover {
+    background-color: #555;
+}
+/*Định dạng hình ảnh*/
+.image img{
+    height: 300px;
+    width: 100%;
+}
+
+.container h5{
+    margin-top: 20px;
+    height: 100px;
+}

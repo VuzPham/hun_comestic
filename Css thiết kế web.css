@@ -106,7 +106,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
+.card:hover{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
 /* The side navigation menu */
 .sidebar {
     margin: 0;
